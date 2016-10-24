@@ -7,7 +7,8 @@
   "scripts": {
     "build": "babel src -d lib",
     "start": "node lib/index",
-    "dev": "babel-node --presets=es2015,es2017"
+    "dev": "babel-node --presets=es2015,es2017",
+    "deploy": "now -e CONSUMER_KEY=@consumer_key -e CONSUMER_SECRET=@consumer_secret -e TOKEN_KEY=@token_key -e TOKEN_SECRET=@token_secret"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0"
