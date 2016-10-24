@@ -8,6 +8,9 @@ I want to reserve a new iPhone for in-store pickup, but I don't want to wait aro
 So I built this bot to check for me. When availability changes, it [tweets at me](https://twitter.com/ireservehack/status/790671943812812800).
 When the [phone I want](https://github.com/iest/hack-ireserve/blob/master/src/index.js#L12) is available, it tells me which stores it's available in.
 
+Pretty dumb right? I kno
+
+![stupid forever](http://bukk.it/stupid.gif)
 
 --
 
