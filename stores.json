@@ -1,0 +1,248 @@
+{
+  "updatedTime" : "09:14",
+  "supportedDomains" : {
+    "0" : "https://www.apple.com/uk/iphone-7/",
+    "1" : "http://www.apple.com/",
+    "2" : "http://storeint.apple.com/",
+    "3" : "http://epp.apple.com/",
+    "4" : "applestore://"
+  },
+  "stores" : [ {
+    "storeNumber" : "R659",
+    "storeName" : "Apple Watch at Selfridges",
+    "storeEnabled" : true,
+    "sellEdition" : true,
+    "storeCity" : "London"
+  }, {
+    "storeNumber" : "R227",
+    "storeName" : "Bentall Centre",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Kingston upon Thames"
+  }, {
+    "storeNumber" : "R118",
+    "storeName" : "Birmingham",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Birmingham"
+  }, {
+    "storeNumber" : "R113",
+    "storeName" : "Bluewater",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Greenhithe"
+  }, {
+    "storeNumber" : "R340",
+    "storeName" : "Braehead",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Glasgow"
+  }, {
+    "storeNumber" : "R163",
+    "storeName" : "Brent Cross",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "London"
+  }, {
+    "storeNumber" : "R496",
+    "storeName" : "Bromley",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Bromley"
+  }, {
+    "storeNumber" : "R135",
+    "storeName" : "Buchanan Street",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Glasgow"
+  }, {
+    "storeNumber" : "R252",
+    "storeName" : "Cabot Circus",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Bristol"
+  }, {
+    "storeNumber" : "R391",
+    "storeName" : "Chapelfield",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Norwich"
+  }, {
+    "storeNumber" : "R244",
+    "storeName" : "Churchill Square",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Brighton"
+  }, {
+    "storeNumber" : "R245",
+    "storeName" : "Covent Garden",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "London"
+  }, {
+    "storeNumber" : "R393",
+    "storeName" : "Cribbs Causeway",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Bristol"
+  }, {
+    "storeNumber" : "R545",
+    "storeName" : "Drake Circus",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Plymouth"
+  }, {
+    "storeNumber" : "R341",
+    "storeName" : "Eldon Square",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Newcastle upon Tyne"
+  }, {
+    "storeNumber" : "R482",
+    "storeName" : "Festival Place",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Basingstoke"
+  }, {
+    "storeNumber" : "R270",
+    "storeName" : "Grand Arcade",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Cambridge"
+  }, {
+    "storeNumber" : "R308",
+    "storeName" : "Highcross",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Leicester"
+  }, {
+    "storeNumber" : "R242",
+    "storeName" : "Lakeside",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Grays"
+  }, {
+    "storeNumber" : "R239",
+    "storeName" : "Liverpool ONE",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Liverpool"
+  }, {
+    "storeNumber" : "R215",
+    "storeName" : "Manchester Arndale",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Manchester"
+  }, {
+    "storeNumber" : "R153",
+    "storeName" : "Meadowhall",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Sheffield"
+  }, {
+    "storeNumber" : "R423",
+    "storeName" : "Metrocentre",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Gateshead"
+  }, {
+    "storeNumber" : "R269",
+    "storeName" : "Milton Keynes",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Milton Keynes"
+  }, {
+    "storeNumber" : "R328",
+    "storeName" : "Princes Street",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Edinburgh"
+  }, {
+    "storeNumber" : "R279",
+    "storeName" : "Princesshay",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Exeter"
+  }, {
+    "storeNumber" : "R092",
+    "storeName" : "Regent Street",
+    "storeEnabled" : true,
+    "sellEdition" : true,
+    "storeCity" : "London"
+  }, {
+    "storeNumber" : "R335",
+    "storeName" : "SouthGate",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Bath"
+  }, {
+    "storeNumber" : "R334",
+    "storeName" : "St David's 2",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Cardiff"
+  }, {
+    "storeNumber" : "R410",
+    "storeName" : "Stratford City",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "London"
+  }, {
+    "storeNumber" : "R176",
+    "storeName" : "The Oracle",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Reading"
+  }, {
+    "storeNumber" : "R255",
+    "storeName" : "Touchwood Centre",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Solihull"
+  }, {
+    "storeNumber" : "R136",
+    "storeName" : "Trafford Centre",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Manchester"
+  }, {
+    "storeNumber" : "R372",
+    "storeName" : "Trinity Leeds",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Leeds"
+  }, {
+    "storeNumber" : "R363",
+    "storeName" : "Union Square",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Aberdeen"
+  }, {
+    "storeNumber" : "R313",
+    "storeName" : "Victoria Square",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Belfast"
+  }, {
+    "storeNumber" : "R527",
+    "storeName" : "Watford",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Watford"
+  }, {
+    "storeNumber" : "R174",
+    "storeName" : "WestQuay",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "Southampton"
+  }, {
+    "storeNumber" : "R226",
+    "storeName" : "White City",
+    "storeEnabled" : true,
+    "sellEdition" : false,
+    "storeCity" : "London"
+  } ],
+  "timezone" : "BST",
+  "updatedDate" : "Monday 24 October",
+  "reservationURL" : "https://reserve-gb.apple.com/GB/en_GB/reserve/iPhone"
+}

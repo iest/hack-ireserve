@@ -1,0 +1,23 @@
+{
+  "name": "hack-ireserve",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Iestyn Williams <iest@me.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node lib/index",
+    "dev": "babel-node --presets=es2015,es2017"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0",
+    "ramda": "^0.22.1",
+    "superagent": "^2.3.0",
+    "twitter": "^1.4.0"
+  }
+}
