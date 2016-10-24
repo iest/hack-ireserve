@@ -1,4 +1,3 @@
-import http from 'http';
 import request from 'superagent';
 import R from 'ramda';
 import { tweet } from './twtr';
