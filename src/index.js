@@ -1,3 +1,4 @@
+import http from 'http';
 import request from 'superagent';
 import R from 'ramda';
 import { tweet } from './twtr';
@@ -32,28 +33,35 @@ let msg = YEP;
 
 async function check() {
   const {body} = await request.get(URL)
-  const availableAtStores = availability(body);
+  return availability(body);
+}
 
-  let newMsg;
-
-  if (availableAtStores.length) {
-    newMsg = `Available at: ${availableAtStores.join(', ')}`;
-  } else {
-    newMsg = NOPE;
+function getMsg(availability) {
+  if (availability.length) {
+    return `Available at: ${availability.join(', ')}`;
   }
+  return NOPE;
+}
+
+setInterval(async () => {
+  const availability = await check();
+  const newMsg = getMsg(availability);
 
   if (newMsg !== msg) {
-    tweet(newMsg)
-    console.log(`> Tweeted "${newMsg}" at ${new Date()}`)
+    try {
+      tweet(newMsg)
+      console.log(`> Tweeted "${newMsg}" at ${new Date()}`)
+    } catch(e) {
+      console.log(`> Tweeting failed`, e)
+    }
     msg = newMsg;
   } else {
     console.log(`> No change at ${new Date()}`)
   }
-
-}
-
-setInterval(() => {
-  check()
 }, 5000)
 
-
+http.createServer(async (req, res) => {
+  const availability = await check();
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8')
+  res.end(getMsg(availability))
+}).listen(8080)

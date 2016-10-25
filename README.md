@@ -1,7 +1,7 @@
 # hack-ireserve
 > iPhone reservation availability notifier
 
-https://hack-ireserve-rgjgxayddx.now.sh
+## https://hack-ireserve-obleftayat.now.sh
 
 I want to reserve a new iPhone for in-store pickup, but I don't want to wait around forever until there's greater availability — or have to check every morning at 6am or whatever they ask you to do.
 
