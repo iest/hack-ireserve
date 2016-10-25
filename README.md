@@ -1,8 +1,6 @@
 # hack-ireserve
 > iPhone reservation availability notifier
 
-## https://hack-ireserve-obleftayat.now.sh
-
 I want to reserve a new iPhone for in-store pickup, but I don't want to wait around forever until there's greater availability — or have to check every morning at 6am or whatever they ask you to do.
 
 So I built this bot to check for me. When availability changes, it [tweets at me](https://twitter.com/ireservehack/status/790671943812812800).

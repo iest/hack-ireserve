@@ -10,7 +10,9 @@ const client = new Twitter({
 
 export const tweet = (msg) => new Promise((resolve, reject) => {
   client.post('statuses/update', {
-    status: `@_iest ${msg}`
+    status: `@_iest ${msg}
+
+${new Date()}`
   }, function(error, tweet, response) {
     if (error) {
       return reject(error);

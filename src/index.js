@@ -27,9 +27,9 @@ const availability = R.compose(
   R.filter(R.propSatisfies(a => a !== NONE, SKU)),
 )
 
-const YEP = 'yeah';
-const NOPE = 'No availability currently'
-let msg = YEP;
+let msg = null;
+let lastPing = null;
+let err = '';
 
 async function check() {
   const {body} = await request.get(URL)
@@ -40,7 +40,7 @@ function getMsg(availability) {
   if (availability.length) {
     return `Available at: ${availability.join(', ')}`;
   }
-  return NOPE;
+  return 'No availability currently';
 }
 
 setInterval(async () => {
@@ -49,19 +49,26 @@ setInterval(async () => {
 
   if (newMsg !== msg) {
     try {
-      tweet(newMsg)
+      await tweet(newMsg)
       console.log(`> Tweeted "${newMsg}" at ${new Date()}`)
     } catch(e) {
       console.log(`> Tweeting failed`, e)
+      err = e
     }
     msg = newMsg;
   } else {
     console.log(`> No change at ${new Date()}`)
   }
+  lastPing = new Date()
 }, 5000)
 
 http.createServer(async (req, res) => {
   const availability = await check();
   res.setHeader('Content-Type', 'text/plain; charset=utf-8')
-  res.end(getMsg(availability))
+  res.end(`${getMsg(availability)}
+
+Last pinged: ${lastPing}
+Last tweet: ${msg}
+Error: ${JSON.stringify(err)}`);
+
 }).listen(8080)
