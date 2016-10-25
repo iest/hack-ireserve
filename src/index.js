@@ -52,12 +52,8 @@ async function check() {
 
 }
 
-const sleep = (s = 1) => new Promise(resolve => setTimeout(resolve, s * 1000))
+setInterval(() => {
+  check()
+}, 5000)
 
-async function main() {
-  await check()
-  await sleep(5)
-  main()
-}
 
-main()
